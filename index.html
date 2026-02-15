@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Ethereum Wallet</title>
+  <script src="https://cdn.jsdelivr.net/npm/ethers@6.8.1/dist/ethers.umd.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🚀 My Ethereum Wallet</h1>
+
+<div id="authScreen">
+  <button onclick="createNewWallet()">Create New Wallet</button>
+  <br><br>
+  <input type="password" id="restorePassword" placeholder="Password">
+  <button onclick="restoreWallet()">Restore Wallet</button>
+</div>
+
+<div id="walletScreen" style="display:none;">
+  <h3>Your Wallet</h3>
+  <p><b>Address:</b> <span id="address"></span></p>
+  <p><b>Balance:</b> <span id="balance">0</span> ETH</p>
+
+  <button onclick="getBalance()">Refresh Balance</button>
+
+  <h3>Send ETH</h3>
+  <input type="text" id="toAddress" placeholder="Recipient Address">
+  <input type="text" id="amount" placeholder="Amount in ETH">
+  <button onclick="sendETH()">Send</button>
+
+  <br><br>
+  <button onclick="logout()">Logout</button>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
