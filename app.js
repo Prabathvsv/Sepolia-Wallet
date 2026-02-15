@@ -2,7 +2,7 @@ let wallet = null;
 
 // Connect to Sepolia testnet
 const provider = new ethers.JsonRpcProvider(
-  "https://sepolia.infura.io/v3/e2e72692061a4d02969ca51a4a08f545"
+  "https://sepolia.infura.io/v3/API_KEY"
 );
 // AUTO LOAD IF EXISTS
 window.onload = async function () {
