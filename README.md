@@ -21,7 +21,7 @@ A simple **Ethereum wallet web app** built with **Ethers.js** and **Vite**, supp
 * **Blockchain Library:** [Ethers.js](https://docs.ethers.org/)
 * **Network:** [Ethereum Sepolia Testnet](https://sepolia.etherscan.io/)
 * **Bundler:** Vite
-* **Hosting:** [Vercel](https://vercel.com/)
+* **Hosting:** Netlify
 
 ---
 
