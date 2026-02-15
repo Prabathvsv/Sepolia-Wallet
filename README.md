@@ -83,4 +83,4 @@ npm run dev
 * Always **backup your mnemonic**. Losing it means losing access to your wallet permanently.
 * Only send test ETH to **Sepolia addresses**; sending to Mainnet will fail.
 
-### Deployment Link  :  [Sepolia Wallet](https://sepolia-wallet.vercel.app/)
+### Deployment Link  :  [Sepolia Wallet](https://preeminent-taffy-f664c2.netlify.app/)
