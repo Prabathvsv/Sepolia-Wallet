@@ -1,9 +1,9 @@
 let wallet = null;
 
 // Connect to Sepolia testnet
-const apiKey = process.env.VITE_INFURA_KEY; // Replace with your Infura API key
+const apiKey = import.meta.env.VITE_INFURA_KEY; // Replace with your Infura API key
 const provider = new ethers.JsonRpcProvider(
-  "https://sepolia.infura.io/v3/" + apiKey
+  `https://sepolia.infura.io/v3/${apiKey}`
 );
 // AUTO LOAD IF EXISTS
 window.onload = async function () {
