@@ -63,7 +63,7 @@ Create `.env` in the project root:
 VITE_INFURA_KEY=your_infura_project_id_here
 ```
 
-> Replace `your_infura_project_id_here` with your **Infura Project ID**.
+> Replace `your_infura_project_id_here` with your **Infura Project ID**. You can get it from [here](https://developer.metamask.io/key/active-endpoints)
 
 ### 4) Run Locally
 
